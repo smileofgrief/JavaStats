@@ -50,6 +50,7 @@ public class StatsServiceTest {
         long actual = service.belowAverage(sales);
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testAboveAverage() {
         StatsService service = new StatsService();
