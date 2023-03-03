@@ -1,9 +1,10 @@
 package ru.netology.stats;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 public class StatsServiceTest {
+
     @Test
     public void testSum() {
         StatsService service = new StatsService();
